@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <DoraemonKit.h>
 
 @interface AppDelegate ()
 
@@ -22,6 +23,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = naviVC;
     [self.window makeKeyAndVisible];
+    
+    [[DoraemonManager shareInstance] install];
+    
     return YES;
 }
 
