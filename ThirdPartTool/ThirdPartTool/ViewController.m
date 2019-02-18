@@ -29,28 +29,37 @@
 #pragma mark -  添加cell
 - (void)addCells {
  
-    NSArray *topTitleArray = @[@"1_tableView展示样式",@"2_APP开发方案",@"3_可以深入挖掘的第三方框架",@"4_布局方案",@"5_APP跳转方案"];
-    NSArray *topIconArray = @[@"mingxi",@"ProjectManagement",@"disanfang",@"buju",@"tiaozhuan"];
-    NSArray *topVcArray = @[@"TableViewDemosVC",@"CrossPlatformVC",@"",@"",@""];
-    NSMutableArray *section0 = [NSMutableArray array];
-    for (int i=0; i<topTitleArray.count; i++) {
-        HSTitleCellModel *cell =   [self addCellWithTitle:topTitleArray[i] iconName:topIconArray[i] jumpVcName:topVcArray[i]];
-        [section0 addObject:cell];
-    }
+    
+    NSArray *topTitleArray = @[@"1_tableView样式组合",@"2_tableView基础控制器",@"3_tableView基础view"];
+    NSArray *topIconArray = @[@"mingxi-1",@"mingxi-2",@"mingxi-3"];
+    NSArray *topVcArray = @[@"TableViewDemosVC",@"",@""];
+    NSMutableArray *section0 = [self addSectionArray:topTitleArray iconArray:topIconArray vcNameArray:topVcArray];
+    
+    NSArray *middleTitleArray = @[@"1_APP开发方案",@"2_布局方案",@"3_APP跳转方案",@"4_可以深入挖掘的第三方框架",@"5_苹果示例的代码"];
+    NSArray *middleIconArray = @[@"ProjectManagement",@"buju",@"tiaozhuan",@"disanfang",@"apple"];
+    NSArray *middleVcArray = @[@"CrossPlatformVC",@"",@"",@"",@""];
+    NSMutableArray *section1 = [self addSectionArray:middleTitleArray iconArray:middleIconArray vcNameArray:middleVcArray];
     
     
     NSArray *famousEnterpriseArray = @[@"1_滴滴",@"2_美团",@"3_今日头条",@"4_阿里巴巴",@"5_百度",@"6_腾讯"];
     NSArray *famousiconArray = @[@"didi",@"meituan",@"jinritoutiao",@"alibaba",@"baidu",@"tengxunwang"];
     NSArray *famousVcArray = @[@"",@"",@"",@"",@"",@""];
     
-    NSMutableArray *section1 = [NSMutableArray array];
-    for (int i = 0; i<famousVcArray.count; i++) {
-     HSTitleCellModel *cell =   [self addCellWithTitle:famousEnterpriseArray[i] iconName:famousiconArray[i] jumpVcName:famousVcArray[i]];
-        [section1 addObject:cell];
-    }
+    NSMutableArray *section2  = [self addSectionArray:famousEnterpriseArray iconArray:famousiconArray vcNameArray:famousVcArray];
 
     [self.hs_dataArry addObject:section0];
     [self.hs_dataArry addObject:section1];
+    [self.hs_dataArry addObject:section2];
+}
+
+#pragma mark -  添加cell的array
+- (NSMutableArray *)addSectionArray:(NSArray *)titleArray iconArray:(NSArray *)iconArray vcNameArray:(NSArray *)vcNameArray{
+    NSMutableArray *section = [NSMutableArray array];
+    for (int i = 0; i<titleArray.count; i++) {
+        HSTitleCellModel *cell =   [self addCellWithTitle:titleArray[i] iconName:iconArray[i] jumpVcName:vcNameArray[i]];
+        [section addObject:cell];
+    }
+    return section;
 }
 
 #pragma mark -  添加cell
