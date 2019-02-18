@@ -69,6 +69,7 @@
 		42A85E822216F4B6005B8FA7 /* ic_hs_tableView_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42A85E802216F4B6005B8FA7 /* ic_hs_tableView_arrow@3x.png */; };
 		42A85E832216F4B6005B8FA7 /* ic_hs_tableView_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42A85E812216F4B6005B8FA7 /* ic_hs_tableView_arrow@2x.png */; };
 		42A85E862217035E005B8FA7 /* HSSetTableViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42A85E852217035E005B8FA7 /* HSSetTableViewController.bundle */; };
+		42E8E112221A3F9B00A04331 /* CrossPlatformVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8E111221A3F9B00A04331 /* CrossPlatformVC.m */; };
 		B27B2765980164E49415B339 /* libPods-ThirdPartTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8304C7237DE7DCB3AEF5C4B7 /* libPods-ThirdPartTool.a */; };
 /* End PBXBuildFile section */
 
@@ -213,6 +214,8 @@
 		42A85E802216F4B6005B8FA7 /* ic_hs_tableView_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_hs_tableView_arrow@3x.png"; sourceTree = "<group>"; };
 		42A85E812216F4B6005B8FA7 /* ic_hs_tableView_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_hs_tableView_arrow@2x.png"; sourceTree = "<group>"; };
 		42A85E852217035E005B8FA7 /* HSSetTableViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HSSetTableViewController.bundle; sourceTree = "<group>"; };
+		42E8E110221A3F9B00A04331 /* CrossPlatformVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossPlatformVC.h; sourceTree = "<group>"; };
+		42E8E111221A3F9B00A04331 /* CrossPlatformVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossPlatformVC.m; sourceTree = "<group>"; };
 		5233E4E12B278255B83D280F /* Pods-ThirdPartTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPartTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPartTool/Pods-ThirdPartTool.debug.xcconfig"; sourceTree = "<group>"; };
 		8304C7237DE7DCB3AEF5C4B7 /* libPods-ThirdPartTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThirdPartTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D8FA90C8F740FAC8268C05 /* Pods-ThirdPartTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPartTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPartTool/Pods-ThirdPartTool.release.xcconfig"; sourceTree = "<group>"; };
@@ -288,8 +291,15 @@
 			children = (
 				42A85DD62216EB55005B8FA7 /* CommonTableView */,
 				42A85E262216EEC7005B8FA7 /* 1,TableViewDemo例子 */,
-				4212D9CE2216B4E6004A7BA8 /* AppDelegate.h */,
+				42E8E109221A392400A04331 /* 2，跨平台方案 */,
+				42E8E10A221A393B00A04331 /* 3，滴滴 */,
+				42E8E10B221A394500A04331 /* 4，美团 */,
+				42E8E10C221A394D00A04331 /* 5，今日头条 */,
+				42E8E10D221A397400A04331 /* 6，阿里巴巴 */,
+				42E8E10E221A397E00A04331 /* 7，百度 */,
+				42E8E10F221A398A00A04331 /* 8，腾讯 */,
 				4212D9CF2216B4E6004A7BA8 /* AppDelegate.m */,
+				4212D9CE2216B4E6004A7BA8 /* AppDelegate.h */,
 				4212D9D12216B4E6004A7BA8 /* ViewController.h */,
 				4212D9D22216B4E6004A7BA8 /* ViewController.m */,
 				4212D9D42216B4E6004A7BA8 /* Main.storyboard */,
@@ -526,6 +536,57 @@
 				42A85E802216F4B6005B8FA7 /* ic_hs_tableView_arrow@3x.png */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		42E8E109221A392400A04331 /* 2，跨平台方案 */ = {
+			isa = PBXGroup;
+			children = (
+				42E8E110221A3F9B00A04331 /* CrossPlatformVC.h */,
+				42E8E111221A3F9B00A04331 /* CrossPlatformVC.m */,
+			);
+			path = "2，跨平台方案";
+			sourceTree = "<group>";
+		};
+		42E8E10A221A393B00A04331 /* 3，滴滴 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3，滴滴";
+			sourceTree = "<group>";
+		};
+		42E8E10B221A394500A04331 /* 4，美团 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4，美团";
+			sourceTree = "<group>";
+		};
+		42E8E10C221A394D00A04331 /* 5，今日头条 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "5，今日头条";
+			sourceTree = "<group>";
+		};
+		42E8E10D221A397400A04331 /* 6，阿里巴巴 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6，阿里巴巴";
+			sourceTree = "<group>";
+		};
+		42E8E10E221A397E00A04331 /* 7，百度 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "7，百度";
+			sourceTree = "<group>";
+		};
+		42E8E10F221A398A00A04331 /* 8，腾讯 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "8，腾讯";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -765,6 +826,7 @@
 				42A85E4D2216EEF6005B8FA7 /* SDWebImageDecoder.m in Sources */,
 				42A85E762216EF27005B8FA7 /* HSSetTableInfoController.m in Sources */,
 				42A85E142216EB6A005B8FA7 /* HSSetTableViewMainController.m in Sources */,
+				42E8E112221A3F9B00A04331 /* CrossPlatformVC.m in Sources */,
 				42A85E4F2216EEF6005B8FA7 /* SDWebImageDownloader.m in Sources */,
 				42A85E732216EF27005B8FA7 /* HSSetTableViewMeController.m in Sources */,
 				42A85E742216EF27005B8FA7 /* HSSetTableViewCustomController.m in Sources */,

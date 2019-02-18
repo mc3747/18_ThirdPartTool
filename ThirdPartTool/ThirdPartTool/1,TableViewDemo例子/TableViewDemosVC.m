@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"HSSetTableViewControllerDemo";
+    self.view.backgroundColor = [UIColor hs_colorWithHexString:@"#EBEDEF"];
     
     CGRect frame = self.view.bounds;
     UITableView *tableView = [[UITableView alloc] initWithFrame:frame style:UITableViewStylePlain];
