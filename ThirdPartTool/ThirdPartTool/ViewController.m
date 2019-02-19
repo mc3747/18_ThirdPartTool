@@ -30,9 +30,9 @@
 - (void)addCells {
  
     
-    NSArray *topTitleArray = @[@"1_tableView样式组合",@"2_tableView基础控制器",@"3_tableView基础view"];
-    NSArray *topIconArray = @[@"mingxi-1",@"mingxi-2",@"mingxi-3"];
-    NSArray *topVcArray = @[@"TableViewDemosVC",@"",@""];
+    NSArray *topTitleArray = @[@"1_tableView样式组合",@"2_tableView基础控制器",@"3_tableView基础view（代理+继承）",@"4_tableView基础view（block+统一）"];
+    NSArray *topIconArray = @[@"mingxi-1",@"mingxi-2",@"mingxi-3",@"mingxi-3"];
+    NSArray *topVcArray = @[@"TableViewDemosVC",@"",@"BaseTableViewDelegateVC",@"BaseTableViewBlockVC"];
     NSMutableArray *section0 = [self addSectionArray:topTitleArray iconArray:topIconArray vcNameArray:topVcArray];
     
     NSArray *middleTitleArray = @[@"1_APP开发方案",@"2_布局方案",@"3_APP跳转方案",@"4_可以深入挖掘的第三方框架",@"5_苹果示例的代码"];

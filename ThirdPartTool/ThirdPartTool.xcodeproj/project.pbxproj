@@ -15,6 +15,18 @@
 		4212D9DE2216B4E9004A7BA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9DD2216B4E9004A7BA8 /* main.m */; };
 		4212D9E82216B4E9004A7BA8 /* ThirdPartToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9E72216B4E9004A7BA8 /* ThirdPartToolTests.m */; };
 		4212D9F32216B4E9004A7BA8 /* ThirdPartToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9F22216B4E9004A7BA8 /* ThirdPartToolUITests.m */; };
+		42316468221B99D1009EC3A7 /* BaseTableViewDelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42316467221B99D1009EC3A7 /* BaseTableViewDelegateVC.m */; };
+		42316473221B9BE9009EC3A7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42316469221B9BE8009EC3A7 /* FirstViewController.m */; };
+		42316474221B9BE9009EC3A7 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4231646B221B9BE9009EC3A7 /* BaseTableView.m */; };
+		42316475221B9BE9009EC3A7 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4231646D221B9BE9009EC3A7 /* CustomCell.m */; };
+		42316476221B9BE9009EC3A7 /* BaseEmptyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4231646E221B9BE9009EC3A7 /* BaseEmptyTableView.m */; };
+		42316477221B9BE9009EC3A7 /* BaseRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42316472221B9BE9009EC3A7 /* BaseRefreshTableView.m */; };
+		4231648C221BE745009EC3A7 /* BaseEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4231647E221BE744009EC3A7 /* BaseEmptyView.m */; };
+		4231648D221BE745009EC3A7 /* BaseBlockTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4231647F221BE744009EC3A7 /* BaseBlockTableView.m */; };
+		4231648E221BE745009EC3A7 /* LYEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42316483221BE745009EC3A7 /* LYEmptyBaseView.m */; };
+		4231648F221BE745009EC3A7 /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 42316485221BE745009EC3A7 /* UIView+Empty.m */; };
+		42316490221BE745009EC3A7 /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 42316486221BE745009EC3A7 /* UIView+LYExtension.m */; };
+		42316491221BE745009EC3A7 /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42316489221BE745009EC3A7 /* LYEmptyView.m */; };
 		42A85E0D2216EB6A005B8FA7 /* HSSetTableViewControllerConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A85DD82216EB69005B8FA7 /* HSSetTableViewControllerConst.m */; };
 		42A85E0E2216EB6A005B8FA7 /* UIView+HSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A85DDB2216EB69005B8FA7 /* UIView+HSFrame.m */; };
 		42A85E0F2216EB6A005B8FA7 /* NSArray+HSSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A85DDC2216EB69005B8FA7 /* NSArray+HSSafeAccess.m */; };
@@ -70,6 +82,7 @@
 		42A85E832216F4B6005B8FA7 /* ic_hs_tableView_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42A85E812216F4B6005B8FA7 /* ic_hs_tableView_arrow@2x.png */; };
 		42A85E862217035E005B8FA7 /* HSSetTableViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42A85E852217035E005B8FA7 /* HSSetTableViewController.bundle */; };
 		42E8E112221A3F9B00A04331 /* CrossPlatformVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8E111221A3F9B00A04331 /* CrossPlatformVC.m */; };
+		42F5069B221BEBA2005A5E43 /* BaseTableViewBlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F50699221BEBA2005A5E43 /* BaseTableViewBlockVC.m */; };
 		B27B2765980164E49415B339 /* libPods-ThirdPartTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8304C7237DE7DCB3AEF5C4B7 /* libPods-ThirdPartTool.a */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +120,31 @@
 		4212D9EE2216B4E9004A7BA8 /* ThirdPartToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThirdPartToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4212D9F22216B4E9004A7BA8 /* ThirdPartToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdPartToolUITests.m; sourceTree = "<group>"; };
 		4212D9F42216B4E9004A7BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42316466221B99D1009EC3A7 /* BaseTableViewDelegateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewDelegateVC.h; sourceTree = "<group>"; };
+		42316467221B99D1009EC3A7 /* BaseTableViewDelegateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewDelegateVC.m; sourceTree = "<group>"; };
+		42316469221B9BE8009EC3A7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4231646A221B9BE9009EC3A7 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		4231646B221B9BE9009EC3A7 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		4231646C221B9BE9009EC3A7 /* BaseRefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRefreshTableView.h; sourceTree = "<group>"; };
+		4231646D221B9BE9009EC3A7 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		4231646E221B9BE9009EC3A7 /* BaseEmptyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEmptyTableView.m; sourceTree = "<group>"; };
+		4231646F221B9BE9009EC3A7 /* BaseEmptyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEmptyTableView.h; sourceTree = "<group>"; };
+		42316470221B9BE9009EC3A7 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		42316471221B9BE9009EC3A7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		42316472221B9BE9009EC3A7 /* BaseRefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRefreshTableView.m; sourceTree = "<group>"; };
+		4231647E221BE744009EC3A7 /* BaseEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEmptyView.m; sourceTree = "<group>"; };
+		4231647F221BE744009EC3A7 /* BaseBlockTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBlockTableView.m; sourceTree = "<group>"; };
+		42316480221BE744009EC3A7 /* BaseEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEmptyView.h; sourceTree = "<group>"; };
+		42316481221BE744009EC3A7 /* BaseBlockTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBlockTableView.h; sourceTree = "<group>"; };
+		42316483221BE745009EC3A7 /* LYEmptyBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyBaseView.m; sourceTree = "<group>"; };
+		42316484221BE745009EC3A7 /* LYEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyView.h; sourceTree = "<group>"; };
+		42316485221BE745009EC3A7 /* UIView+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Empty.m"; sourceTree = "<group>"; };
+		42316486221BE745009EC3A7 /* UIView+LYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYExtension.m"; sourceTree = "<group>"; };
+		42316487221BE745009EC3A7 /* LYEmptyBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyBaseView.h; sourceTree = "<group>"; };
+		42316488221BE745009EC3A7 /* LYEmptyViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyViewHeader.h; sourceTree = "<group>"; };
+		42316489221BE745009EC3A7 /* LYEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyView.m; sourceTree = "<group>"; };
+		4231648A221BE745009EC3A7 /* UIView+LYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYExtension.h"; sourceTree = "<group>"; };
+		4231648B221BE745009EC3A7 /* UIView+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Empty.h"; sourceTree = "<group>"; };
 		42A85DD82216EB69005B8FA7 /* HSSetTableViewControllerConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSSetTableViewControllerConst.m; sourceTree = "<group>"; };
 		42A85DDA2216EB69005B8FA7 /* NSBundle+HSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HSImage.h"; sourceTree = "<group>"; };
 		42A85DDB2216EB69005B8FA7 /* UIView+HSFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HSFrame.m"; sourceTree = "<group>"; };
@@ -216,6 +254,8 @@
 		42A85E852217035E005B8FA7 /* HSSetTableViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HSSetTableViewController.bundle; sourceTree = "<group>"; };
 		42E8E110221A3F9B00A04331 /* CrossPlatformVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossPlatformVC.h; sourceTree = "<group>"; };
 		42E8E111221A3F9B00A04331 /* CrossPlatformVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossPlatformVC.m; sourceTree = "<group>"; };
+		42F50699221BEBA2005A5E43 /* BaseTableViewBlockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewBlockVC.m; sourceTree = "<group>"; };
+		42F5069A221BEBA2005A5E43 /* BaseTableViewBlockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewBlockVC.h; sourceTree = "<group>"; };
 		5233E4E12B278255B83D280F /* Pods-ThirdPartTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPartTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPartTool/Pods-ThirdPartTool.debug.xcconfig"; sourceTree = "<group>"; };
 		8304C7237DE7DCB3AEF5C4B7 /* libPods-ThirdPartTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThirdPartTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D8FA90C8F740FAC8268C05 /* Pods-ThirdPartTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPartTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPartTool/Pods-ThirdPartTool.release.xcconfig"; sourceTree = "<group>"; };
@@ -289,15 +329,9 @@
 		4212D9CD2216B4E6004A7BA8 /* ThirdPartTool */ = {
 			isa = PBXGroup;
 			children = (
-				42A85DD62216EB55005B8FA7 /* CommonTableView */,
-				42A85E262216EEC7005B8FA7 /* 1,TableViewDemo例子 */,
-				42E8E109221A392400A04331 /* 2，跨平台方案 */,
-				42E8E10A221A393B00A04331 /* 3，滴滴 */,
-				42E8E10B221A394500A04331 /* 4，美团 */,
-				42E8E10C221A394D00A04331 /* 5，今日头条 */,
-				42E8E10D221A397400A04331 /* 6，阿里巴巴 */,
-				42E8E10E221A397E00A04331 /* 7，百度 */,
-				42E8E10F221A398A00A04331 /* 8，腾讯 */,
+				42A85E262216EEC7005B8FA7 /* 1，TableView升级 */,
+				423163D9221B8977009EC3A7 /* 2，各种框架学习和方案总结 */,
+				423163DA221B8995009EC3A7 /* 3，大厂开源 */,
 				4212D9CF2216B4E6004A7BA8 /* AppDelegate.m */,
 				4212D9CE2216B4E6004A7BA8 /* AppDelegate.h */,
 				4212D9D12216B4E6004A7BA8 /* ViewController.h */,
@@ -327,6 +361,137 @@
 				4212D9F42216B4E9004A7BA8 /* Info.plist */,
 			);
 			path = ThirdPartToolUITests;
+			sourceTree = "<group>";
+		};
+		423163D9221B8977009EC3A7 /* 2，各种框架学习和方案总结 */ = {
+			isa = PBXGroup;
+			children = (
+				42E8E109221A392400A04331 /* 1，APP开发方案 */,
+			);
+			path = "2，各种框架学习和方案总结";
+			sourceTree = "<group>";
+		};
+		423163DA221B8995009EC3A7 /* 3，大厂开源 */ = {
+			isa = PBXGroup;
+			children = (
+				42E8E10A221A393B00A04331 /* 3，滴滴 */,
+				42E8E10B221A394500A04331 /* 4，美团 */,
+				42E8E10C221A394D00A04331 /* 5，今日头条 */,
+				42E8E10D221A397400A04331 /* 6，阿里巴巴 */,
+				42E8E10E221A397E00A04331 /* 7，百度 */,
+				42E8E10F221A398A00A04331 /* 8，腾讯 */,
+			);
+			path = "3，大厂开源";
+			sourceTree = "<group>";
+		};
+		423163DB221B8A1C009EC3A7 /* 1，TableViewCell多种组合 */ = {
+			isa = PBXGroup;
+			children = (
+				42A85E7E2216EF60005B8FA7 /* TableViewDemosVC.h */,
+				42A85E7D2216EF60005B8FA7 /* TableViewDemosVC.m */,
+				42A85DD62216EB55005B8FA7 /* CommonTableView */,
+				42A85E7C2216EF3F005B8FA7 /* Controllers */,
+				42A85E682216EF27005B8FA7 /* custom */,
+			);
+			path = "1，TableViewCell多种组合";
+			sourceTree = "<group>";
+		};
+		423163DC221B8A46009EC3A7 /* 2，TableViewController基类 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2，TableViewController基类";
+			sourceTree = "<group>";
+		};
+		423163DD221B8A59009EC3A7 /* 3，TableView基类 */ = {
+			isa = PBXGroup;
+			children = (
+				4231647B221BE2AE009EC3A7 /* 1,代理加继承模式 */,
+				4231647C221BE4FA009EC3A7 /* 2,block加统一模式 */,
+			);
+			path = "3，TableView基类";
+			sourceTree = "<group>";
+		};
+		42316478221B9C0A009EC3A7 /* BaseEmptyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4231646F221B9BE9009EC3A7 /* BaseEmptyTableView.h */,
+				4231646E221B9BE9009EC3A7 /* BaseEmptyTableView.m */,
+			);
+			path = BaseEmptyTableView;
+			sourceTree = "<group>";
+		};
+		42316479221B9C1B009EC3A7 /* BaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				42316470221B9BE9009EC3A7 /* BaseTableView.h */,
+				4231646B221B9BE9009EC3A7 /* BaseTableView.m */,
+			);
+			name = BaseTableView;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4231647A221B9DDE009EC3A7 /* BaseRefreshTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4231646C221B9BE9009EC3A7 /* BaseRefreshTableView.h */,
+				42316472221B9BE9009EC3A7 /* BaseRefreshTableView.m */,
+			);
+			path = BaseRefreshTableView;
+			sourceTree = "<group>";
+		};
+		4231647B221BE2AE009EC3A7 /* 1,代理加继承模式 */ = {
+			isa = PBXGroup;
+			children = (
+				42316466221B99D1009EC3A7 /* BaseTableViewDelegateVC.h */,
+				42316467221B99D1009EC3A7 /* BaseTableViewDelegateVC.m */,
+				4231647A221B9DDE009EC3A7 /* BaseRefreshTableView */,
+				42316479221B9C1B009EC3A7 /* BaseTableView */,
+				42316478221B9C0A009EC3A7 /* BaseEmptyTableView */,
+				4231646A221B9BE9009EC3A7 /* CustomCell.h */,
+				4231646D221B9BE9009EC3A7 /* CustomCell.m */,
+				42316471221B9BE9009EC3A7 /* FirstViewController.h */,
+				42316469221B9BE8009EC3A7 /* FirstViewController.m */,
+			);
+			path = "1,代理加继承模式";
+			sourceTree = "<group>";
+		};
+		4231647C221BE4FA009EC3A7 /* 2,block加统一模式 */ = {
+			isa = PBXGroup;
+			children = (
+				42F5069A221BEBA2005A5E43 /* BaseTableViewBlockVC.h */,
+				42F50699221BEBA2005A5E43 /* BaseTableViewBlockVC.m */,
+				4231647D221BE744009EC3A7 /* BaseTableView */,
+				42316482221BE745009EC3A7 /* LYEmptyView */,
+			);
+			path = "2,block加统一模式";
+			sourceTree = "<group>";
+		};
+		4231647D221BE744009EC3A7 /* BaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				42316481221BE744009EC3A7 /* BaseBlockTableView.h */,
+				4231647F221BE744009EC3A7 /* BaseBlockTableView.m */,
+				4231647E221BE744009EC3A7 /* BaseEmptyView.m */,
+				42316480221BE744009EC3A7 /* BaseEmptyView.h */,
+			);
+			path = BaseTableView;
+			sourceTree = "<group>";
+		};
+		42316482221BE745009EC3A7 /* LYEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				42316483221BE745009EC3A7 /* LYEmptyBaseView.m */,
+				42316484221BE745009EC3A7 /* LYEmptyView.h */,
+				42316485221BE745009EC3A7 /* UIView+Empty.m */,
+				42316486221BE745009EC3A7 /* UIView+LYExtension.m */,
+				42316487221BE745009EC3A7 /* LYEmptyBaseView.h */,
+				42316488221BE745009EC3A7 /* LYEmptyViewHeader.h */,
+				42316489221BE745009EC3A7 /* LYEmptyView.m */,
+				4231648A221BE745009EC3A7 /* UIView+LYExtension.h */,
+				4231648B221BE745009EC3A7 /* UIView+Empty.h */,
+			);
+			path = LYEmptyView;
 			sourceTree = "<group>";
 		};
 		42A85DD62216EB55005B8FA7 /* CommonTableView */ = {
@@ -441,15 +606,14 @@
 			path = Const;
 			sourceTree = "<group>";
 		};
-		42A85E262216EEC7005B8FA7 /* 1,TableViewDemo例子 */ = {
+		42A85E262216EEC7005B8FA7 /* 1，TableView升级 */ = {
 			isa = PBXGroup;
 			children = (
-				42A85E7E2216EF60005B8FA7 /* TableViewDemosVC.h */,
-				42A85E7D2216EF60005B8FA7 /* TableViewDemosVC.m */,
-				42A85E7C2216EF3F005B8FA7 /* Controllers */,
-				42A85E682216EF27005B8FA7 /* custom */,
+				423163DB221B8A1C009EC3A7 /* 1，TableViewCell多种组合 */,
+				423163DC221B8A46009EC3A7 /* 2，TableViewController基类 */,
+				423163DD221B8A59009EC3A7 /* 3，TableView基类 */,
 			);
-			path = "1,TableViewDemo例子";
+			path = "1，TableView升级";
 			sourceTree = "<group>";
 		};
 		42A85E282216EEF6005B8FA7 /* SDWebImage */ = {
@@ -538,13 +702,13 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		42E8E109221A392400A04331 /* 2，跨平台方案 */ = {
+		42E8E109221A392400A04331 /* 1，APP开发方案 */ = {
 			isa = PBXGroup;
 			children = (
 				42E8E110221A3F9B00A04331 /* CrossPlatformVC.h */,
 				42E8E111221A3F9B00A04331 /* CrossPlatformVC.m */,
 			);
-			path = "2，跨平台方案";
+			path = "1，APP开发方案";
 			sourceTree = "<group>";
 		};
 		42E8E10A221A393B00A04331 /* 3，滴滴 */ = {
@@ -747,10 +911,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ThirdPartTool/Pods-ThirdPartTool-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKit/DoraemonKit.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DoraemonKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -783,14 +949,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				42A85E502216EEF6005B8FA7 /* UIImage+GIF.m in Sources */,
+				42316475221B9BE9009EC3A7 /* CustomCell.m in Sources */,
 				42A85E582216EEF6005B8FA7 /* UIView+WebCacheOperation.m in Sources */,
 				42A85E152216EB6A005B8FA7 /* HSSetTableViewManager.m in Sources */,
 				42A85E572216EEF6005B8FA7 /* UIImageView+WebCache.m in Sources */,
+				42316473221B9BE9009EC3A7 /* FirstViewController.m in Sources */,
 				42A85E4A2216EEF6005B8FA7 /* UIImage+WebP.m in Sources */,
 				42A85E182216EB6A005B8FA7 /* HSFooterModel.m in Sources */,
 				42A85E1F2216EB6A005B8FA7 /* HSImageCellModel.m in Sources */,
 				42A85E592216EEF6005B8FA7 /* UIButton+WebCache.m in Sources */,
 				42A85E202216EB6A005B8FA7 /* HSTextTableViewCell.m in Sources */,
+				42316474221B9BE9009EC3A7 /* BaseTableView.m in Sources */,
 				42A85E772216EF27005B8FA7 /* HSCategoryViewController.m in Sources */,
 				42A85E792216EF27005B8FA7 /* HSHeaderTableViewCell.m in Sources */,
 				42A85E0E2216EB6A005B8FA7 /* UIView+HSFrame.m in Sources */,
@@ -806,34 +975,44 @@
 				42A85E712216EF27005B8FA7 /* HSSetTableViewOtherController.m in Sources */,
 				42A85E522216EEF6005B8FA7 /* SDWebImageCompat.m in Sources */,
 				42A85E7A2216EF27005B8FA7 /* HSHeaderCellModel.m in Sources */,
+				4231648D221BE745009EC3A7 /* BaseBlockTableView.m in Sources */,
 				42A85E1A2216EB6A005B8FA7 /* HSCustomCellModel.m in Sources */,
 				42A85E242216EB6A005B8FA7 /* HSImageTableViewCell.m in Sources */,
 				42A85E562216EEF6005B8FA7 /* NSData+ImageContentType.m in Sources */,
 				42A85E0F2216EB6A005B8FA7 /* NSArray+HSSafeAccess.m in Sources */,
 				42A85E7B2216EF27005B8FA7 /* HSZhiHuCustomTableViewCell.m in Sources */,
 				42A85E232216EB6A005B8FA7 /* HSSwitchTableViewCell.m in Sources */,
+				42F5069B221BEBA2005A5E43 /* BaseTableViewBlockVC.m in Sources */,
 				42A85E542216EEF6005B8FA7 /* SDImageCache.m in Sources */,
 				42A85E222216EB6A005B8FA7 /* HSCustomTableViewCell.m in Sources */,
 				42A85E122216EB6A005B8FA7 /* NSString+HSHeight.m in Sources */,
+				42316490221BE745009EC3A7 /* UIView+LYExtension.m in Sources */,
 				42A85E162216EB6A005B8FA7 /* UIViewController+HSSetTableView.m in Sources */,
 				42A85E552216EEF6005B8FA7 /* SDWebImageDownloaderOperation.m in Sources */,
 				42A85E1C2216EB6A005B8FA7 /* HSSwitchCellModel.m in Sources */,
 				42A85E7F2216EF60005B8FA7 /* TableViewDemosVC.m in Sources */,
 				4212D9DE2216B4E9004A7BA8 /* main.m in Sources */,
 				42A85E212216EB6A005B8FA7 /* HSBaseTableViewCell.m in Sources */,
+				4231648F221BE745009EC3A7 /* UIView+Empty.m in Sources */,
 				42A85E172216EB6A005B8FA7 /* HSBaseCellModel.m in Sources */,
+				4231648C221BE745009EC3A7 /* BaseEmptyView.m in Sources */,
+				42316477221B9BE9009EC3A7 /* BaseRefreshTableView.m in Sources */,
 				42A85E4C2216EEF6005B8FA7 /* SDWebImageManager.m in Sources */,
 				42A85E4D2216EEF6005B8FA7 /* SDWebImageDecoder.m in Sources */,
 				42A85E762216EF27005B8FA7 /* HSSetTableInfoController.m in Sources */,
 				42A85E142216EB6A005B8FA7 /* HSSetTableViewMainController.m in Sources */,
 				42E8E112221A3F9B00A04331 /* CrossPlatformVC.m in Sources */,
+				42316491221BE745009EC3A7 /* LYEmptyView.m in Sources */,
+				42316476221B9BE9009EC3A7 /* BaseEmptyTableView.m in Sources */,
 				42A85E4F2216EEF6005B8FA7 /* SDWebImageDownloader.m in Sources */,
 				42A85E732216EF27005B8FA7 /* HSSetTableViewMeController.m in Sources */,
+				4231648E221BE745009EC3A7 /* LYEmptyBaseView.m in Sources */,
 				42A85E742216EF27005B8FA7 /* HSSetTableViewCustomController.m in Sources */,
 				42A85E1E2216EB6A005B8FA7 /* HSHeaderModel.m in Sources */,
 				4212D9D02216B4E6004A7BA8 /* AppDelegate.m in Sources */,
 				42A85E192216EB6A005B8FA7 /* HSTextCellModel.m in Sources */,
 				42A85E4B2216EEF6005B8FA7 /* MKAnnotationView+WebCache.m in Sources */,
+				42316468221B99D1009EC3A7 /* BaseTableViewDelegateVC.m in Sources */,
 				42A85E4E2216EEF6005B8FA7 /* UIImageView+HighlightedWebCache.m in Sources */,
 				42A85E0D2216EB6A005B8FA7 /* HSSetTableViewControllerConst.m in Sources */,
 				42A85E102216EB6A005B8FA7 /* UIColor+HSExtension.m in Sources */,

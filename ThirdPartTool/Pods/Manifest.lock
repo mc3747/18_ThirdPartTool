@@ -39,7 +39,9 @@ PODS:
     - fishhook
     - PNChart
     - "UITextView+Placeholder"
+  - DZNEmptyDataSet (1.8.1)
   - fishhook (0.2)
+  - MJRefresh (3.1.15.7)
   - PNChart (0.8.9):
     - UICountingLabel (~> 1.2.0)
   - UICountingLabel (1.2.0)
@@ -49,6 +51,8 @@ DEPENDENCIES:
   - DoraemonKit/Core
   - DoraemonKit/WithGPS
   - DoraemonKit/WithLogger
+  - DZNEmptyDataSet (~> 1.8.1)
+  - MJRefresh
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -56,7 +60,9 @@ SPEC REPOS:
     - BSBacktraceLogger
     - CocoaLumberjack
     - DoraemonKit
+    - DZNEmptyDataSet
     - fishhook
+    - MJRefresh
     - PNChart
     - UICountingLabel
     - "UITextView+Placeholder"
@@ -66,11 +72,13 @@ SPEC CHECKSUMS:
   BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
   CocoaLumberjack: 2101f8a5508197a305e737d16c5c2e9e2157628c
   DoraemonKit: 5660bbbd6abb5ff39a0ff3fb33f153d7745c5c10
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
   UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
   "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
 
-PODFILE CHECKSUM: 875212ba3e42499d32e5d0dfceb23906f1e224f5
+PODFILE CHECKSUM: 7a70c1f95e43fde1e441ee3f76dee29ac5ed8046
 
 COCOAPODS: 1.5.0.beta.1
