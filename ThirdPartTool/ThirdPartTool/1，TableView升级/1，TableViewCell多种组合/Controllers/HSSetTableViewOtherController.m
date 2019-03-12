@@ -52,7 +52,7 @@
     }];
     cell2.arrowWidth = 30;
     cell2.arrowHeight = 20;
-    cell2.arrowImage = [UIImage imageNamed:@"MoreMyBankCard"];
+    cell2.arrowImage = [UIImage imageNamed:@"arrow_1"];
     cell2.leftPading = 100;
     cell2.detailFont = [UIFont boldSystemFontOfSize:20];
     cell2.detailColor = [UIColor blueColor];

@@ -43,7 +43,7 @@
     
     NSArray *famousEnterpriseArray = @[@"1_滴滴",@"2_美团",@"3_今日头条",@"4_阿里巴巴",@"5_百度",@"6_腾讯"];
     NSArray *famousiconArray = @[@"didi",@"meituan",@"jinritoutiao",@"alibaba",@"baidu",@"tengxunwang"];
-    NSArray *famousVcArray = @[@"",@"",@"",@"",@"",@""];
+    NSArray *famousVcArray = @[@"",@"",@"",@"AlibabaVC",@"",@""];
     
     NSMutableArray *section2  = [self addSectionArray:famousEnterpriseArray iconArray:famousiconArray vcNameArray:famousVcArray];
 

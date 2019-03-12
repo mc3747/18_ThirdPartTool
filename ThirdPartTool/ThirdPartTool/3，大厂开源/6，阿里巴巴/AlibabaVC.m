@@ -1,27 +1,25 @@
 //
-//  CrossPlatformVC.m
+//  AlibabaVC.m
 //  ThirdPartTool
 //
-//  Created by gjfax on 2019/2/18.
+//  Created by gjfax on 2019/3/12.
 //  Copyright © 2019 macheng. All rights reserved.
 //
 
-#import "CrossPlatformVC.h"
+#import "AlibabaVC.h"
 #import "HSTextCellModel.h"
 
-@interface CrossPlatformVC ()
+@interface AlibabaVC ()
 
 @end
 
-@implementation CrossPlatformVC
+@implementation AlibabaVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-     self.view.backgroundColor = [UIColor lightGrayColor];
-    
-    NSArray *titleArray = @[@"1,RN",@"2,uni-app"];
-    NSArray *detailArray = @[@"",@"",@""];
-    NSArray *clickDetailArray = @[@"RN详解\nRN详解",@"uni-app详解\nuni-app详解"];
+    NSArray *titleArray = @[@"1,开源地址",@"2,动态化方案Tangram",@"3,提高协程的coobjc",@"4,模块化编程BeeHive"];
+    NSArray *detailArray = @[@"github开源地址：https://github.com/alibaba",@"",@"",@""];
+    NSArray *clickDetailArray = @[@"阿里开源地址：https://opsx.alibaba.com/opensource?lang=zh-CN",@"uni-app详解\nuni-app详解",@"",@""];
     NSMutableArray *section0 = [NSMutableArray array];
     for (int i=0; i<titleArray.count; i++) {
         HSTextCellModel *cell = [self addCell:titleArray[i] detailTitle:detailArray[i] clickDetailTitle:clickDetailArray[i]];
@@ -30,8 +28,9 @@
     [self.hs_dataArry addObject:section0];
 }
 
+
 - (HSTextCellModel *)addCell:(NSString *)title detailTitle:(NSString *)detailTitle clickDetailTitle:(NSString *)clickDetailTitle {
-     __weak __typeof(self)weakSelf = self;
+    __weak __typeof(self)weakSelf = self;
     __block BOOL update = YES;
     HSTextCellModel *cell2 = [[HSTextCellModel alloc] initWithTitle:title detailText:detailTitle actionBlock:^(HSBaseCellModel *model) {
         HSTextCellModel *detailModel = (HSTextCellModel *)model;
@@ -41,11 +40,10 @@
     }];
     cell2.arrowWidth = 30;
     cell2.arrowHeight = 20;
-    cell2.arrowImage = [UIImage imageNamed:@"arrow_2"];
+    cell2.arrowImage = [UIImage imageNamed:@"arrow_3"];
     cell2.leftPading = 100;
-    cell2.detailFont = [UIFont boldSystemFontOfSize:20];
+    cell2.detailFont = [UIFont boldSystemFontOfSize:15];
     cell2.detailColor = [UIColor blueColor];
     return cell2;
 }
-
 @end

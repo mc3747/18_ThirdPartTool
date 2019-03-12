@@ -21,7 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
     UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
     tableView.translatesAutoresizingMaskIntoConstraints = NO;
     tableView.backgroundColor = [UIColor clearColor];
