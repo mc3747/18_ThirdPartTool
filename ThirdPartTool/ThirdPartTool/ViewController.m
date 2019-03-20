@@ -12,7 +12,7 @@
 #import "HSHeaderCellModel.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) NSArray *sectionTitleArray;
 @end
 
 @implementation ViewController
@@ -21,7 +21,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor hs_colorWithHexString:@"#EBEDEF"];
     self.title = @"优质大厂开源集锦";
-    
+    self.sectionTitleArray = @[@"1，优雅tableView",@"2，APP架构相关",@"3，大厂开源"];
     [self addCells];
     
    
@@ -83,5 +83,14 @@
     [self.navigationController pushViewController:view animated:YES];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 30;
+}
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    UILabel *label = [[UILabel alloc] init];
+    label.textColor = [UIColor darkTextColor];
+    label.text = self.sectionTitleArray[section];
+    return label;
+}
 
 @end
