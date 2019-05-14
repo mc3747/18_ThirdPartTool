@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -730,7 +730,7 @@
 		0E4498115CB1368B8460D4FD9CD379C1 /* DoraemonLoadAnalyze.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoraemonLoadAnalyze.framework; path = iOS/DoraemonKit/Framework/DoraemonLoadAnalyze.framework; sourceTree = "<group>"; };
 		0ECABB288EC1A9A9B54C1F9EC3BEC4E6 /* DoraemonDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonDefine.h; path = iOS/DoraemonKit/Src/Core/Define/DoraemonDefine.h; sourceTree = "<group>"; };
 		0F188AF40603EB8BEC330AA5C74B2D20 /* DoraemonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonKit.h; path = iOS/DoraemonKit/Src/Core/DoraemonKit.h; sourceTree = "<group>"; };
-		0F4D3910A31D14DCEA836207B3F19CA7 /* libUICountingLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUICountingLabel.a; path = libUICountingLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4D3910A31D14DCEA836207B3F19CA7 /* libUICountingLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUICountingLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F948522FF3204D6B432D40DC72CC46A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		0FDBC99104A54506D78F39E5EF976AB9 /* DoraemonMetricsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonMetricsViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/ViewMetrics/DoraemonMetricsViewController.h; sourceTree = "<group>"; };
 		102291ECF926DE5331C3D628844C6EDB /* doraemon_more@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "doraemon_more@2x.png"; path = "iOS/DoraemonKit/Resource/doraemon_more@2x.png"; sourceTree = "<group>"; };
@@ -747,7 +747,7 @@
 		13593E81A321B1D6B17F865DD6F22C4A /* DoraemonNavBarItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNavBarItemModel.h; path = iOS/DoraemonKit/Src/Core/Base/DoraemonNavBarItemModel.h; sourceTree = "<group>"; };
 		13836B5BBBB5A26CC4A544BEB42D0855 /* DoraemonCPUUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonCPUUtil.m; path = iOS/DoraemonKit/Src/Core/Plugin/CPU/Function/DoraemonCPUUtil.m; sourceTree = "<group>"; };
 		153614883014E5D20815B8495FDC4C1F /* PNLineChartDataItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNLineChartDataItem.m; path = PNChart/PNLineChartDataItem.m; sourceTree = "<group>"; };
-		1646B42453EA4FECC799B2D50DD61AB9 /* libDoraemonKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDoraemonKit.a; path = libDoraemonKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1646B42453EA4FECC799B2D50DD61AB9 /* libDoraemonKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDoraemonKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D74AD2A923759A82CC21D991699753 /* DoraemonNetFlowTestListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNetFlowTestListViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/NetFlow/TestList/DoraemonNetFlowTestListViewController.m; sourceTree = "<group>"; };
 		17EF96FA914CA9481C0CB463102EA704 /* BSBacktraceLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSBacktraceLogger-prefix.pch"; sourceTree = "<group>"; };
 		17FEF57F7A56E007714674EBDED5C82C /* DoraemonFPSViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonFPSViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/FPS/DoraemonFPSViewController.h; sourceTree = "<group>"; };
@@ -755,7 +755,7 @@
 		19C7E0ADD4A4269BCC464F1C3336C8EB /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
 		19FE347D3D52125A4FF5840A1EC17B11 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
 		1A3E0D75359EF75C32F7A73306912248 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSBacktraceLogger.m; path = BSBacktraceLogger/BSBacktraceLogger.m; sourceTree = "<group>"; };
-		1A8C4153D54750FE2B67D5877E6E082F /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZNEmptyDataSet.a; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8C4153D54750FE2B67D5877E6E082F /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8DFAA6BBACEA9D600B9DC14339779B /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		1AC9D53E46986E09556EBF8A4BE62F41 /* DoraemonCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonCacheManager.h; path = iOS/DoraemonKit/Src/Core/Cache/DoraemonCacheManager.h; sourceTree = "<group>"; };
 		1B546F3AF9C68C53E702A7C7B57F349F /* UICountingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICountingLabel-dummy.m"; sourceTree = "<group>"; };
@@ -775,7 +775,7 @@
 		2259DFD6D909A7F48E9D877F84410360 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		22808034C62653D53C195CC8C89AB827 /* PNPieChartDataItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPieChartDataItem.h; path = PNChart/PNPieChartDataItem.h; sourceTree = "<group>"; };
 		22E1743C3A22A0FCC144A89B262A1732 /* PNLineChartDataItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNLineChartDataItem.h; path = PNChart/PNLineChartDataItem.h; sourceTree = "<group>"; };
-		23A11DDBBA25930564EB6954F868D202 /* libfishhook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libfishhook.a; path = libfishhook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A11DDBBA25930564EB6954F868D202 /* libfishhook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfishhook.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2472A80ED0AC2546276F18DFCEDBA158 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
 		2498CCE0E8318DC7D05082A7A643E00B /* DoraemonH5Plugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonH5Plugin.m; path = iOS/DoraemonKit/Src/Core/Plugin/H5/DoraemonH5Plugin.m; sourceTree = "<group>"; };
 		2600A489EF6AD03DEDEA4EEC4C5C14EF /* UITextView+Placeholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder-dummy.m"; sourceTree = "<group>"; };
@@ -811,9 +811,9 @@
 		325ABE454D6E02BC70933DB7066E51A1 /* DoraemonCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonCacheManager.m; path = iOS/DoraemonKit/Src/Core/Cache/DoraemonCacheManager.m; sourceTree = "<group>"; };
 		32886C37DAAB21B1496517A6FCC30689 /* DoraemonFPSOscillogramViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonFPSOscillogramViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/FPS/Function/DoraemonFPSOscillogramViewController.h; sourceTree = "<group>"; };
 		32D5ED0F9B4A3FFA873D03E7F369A8CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		336B532D242E29EDB886FCD67DF026D2 /* libPods-ThirdPartTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ThirdPartTool.a"; path = "libPods-ThirdPartTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		336B532D242E29EDB886FCD67DF026D2 /* libPods-ThirdPartTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThirdPartTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33833847B87C6ADD6FF191CFEB11481E /* doraemon_netflow_list_select@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "doraemon_netflow_list_select@3x.png"; path = "iOS/DoraemonKit/Resource/doraemon_netflow_list_select@3x.png"; sourceTree = "<group>"; };
-		3436122B57810D1B9835C140E0176BC7 /* libPNChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPNChart.a; path = libPNChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3436122B57810D1B9835C140E0176BC7 /* libPNChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPNChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		35380A7ED3B503BF558B8CD418A41A36 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		3579A1465C95F32F77EF9E3445FEB542 /* doraemon_kadun@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "doraemon_kadun@2x.png"; path = "iOS/DoraemonKit/Resource/doraemon_kadun@2x.png"; sourceTree = "<group>"; };
 		35FC6C879713E7BAF4C32E50A260D373 /* DoraemonViewCheckManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonViewCheckManager.m; path = iOS/DoraemonKit/Src/Core/Plugin/ViewCheck/Function/DoraemonViewCheckManager.m; sourceTree = "<group>"; };
@@ -935,7 +935,7 @@
 		6230F3F4DD018D6DE31E16E9E3178759 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		629EFD7AC7C48829CDD44F9854F8270F /* UICountingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICountingLabel-prefix.pch"; sourceTree = "<group>"; };
 		6302A4049A4773CB149258FE4189753D /* DoraemonOscillogramWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonOscillogramWindow.m; path = iOS/DoraemonKit/Src/Core/CommonUI/Oscillogram/DoraemonOscillogramWindow.m; sourceTree = "<group>"; };
-		631305249121C4C0AF61BAFA1B250A10 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaLumberjack.a; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		631305249121C4C0AF61BAFA1B250A10 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F0F0ABEA0C1DBA2A4326F92E1E14A1 /* DoraemonSandboxCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonSandboxCell.h; path = iOS/DoraemonKit/Src/Core/Plugin/Sanbox/VC/DoraemonSandboxCell.h; sourceTree = "<group>"; };
 		64561D9E3A8A7A9D0084AB58C2EE3E07 /* doraemon_default@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "doraemon_default@3x.png"; path = "iOS/DoraemonKit/Resource/doraemon_default@3x.png"; sourceTree = "<group>"; };
 		64899735987C30C806D1CF9A5DF35C2D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
@@ -966,7 +966,7 @@
 		7252CCA59FB167E3682EF53991E2743A /* DoraemonNSLogPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNSLogPlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/NSLog/DoraemonNSLogPlugin.h; sourceTree = "<group>"; };
 		72EFEB4AEED7995AA27338D1A0638C20 /* DoraemonFPSOscillogramViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonFPSOscillogramViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/FPS/Function/DoraemonFPSOscillogramViewController.m; sourceTree = "<group>"; };
 		7381C8146F210C19632BA996409F947B /* PNChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PNChart-dummy.m"; sourceTree = "<group>"; };
-		73ADA06A74392E5A2D82A6C7916B8BA4 /* libBSBacktraceLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBSBacktraceLogger.a; path = libBSBacktraceLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73ADA06A74392E5A2D82A6C7916B8BA4 /* libBSBacktraceLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBSBacktraceLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		74944AD342D7EC12234A0B2AF763A985 /* DoraemonANRListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonANRListViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/ANR/List/DoraemonANRListViewController.h; sourceTree = "<group>"; };
 		76026FB54206B6A7ADE2F5805B9F5A85 /* DoraemonColorPickInfoWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonColorPickInfoWindow.h; path = iOS/DoraemonKit/Src/Core/Plugin/ColorPick/Function/DoraemonColorPickInfoWindow.h; sourceTree = "<group>"; };
 		76488C3E07383B0AFEA296B33387BFF4 /* DDFileLogger+Buffering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDFileLogger+Buffering.m"; path = "Classes/Extensions/DDFileLogger+Buffering.m"; sourceTree = "<group>"; };
@@ -1041,7 +1041,7 @@
 		926097A4AAF5E7D1692663D56DB60864 /* DoraemonCocoaLumberjackListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonCocoaLumberjackListCell.h; path = iOS/DoraemonKit/Src/Logger/List/DoraemonCocoaLumberjackListCell.h; sourceTree = "<group>"; };
 		92AB6C723BE8237970E7FEB4ED306679 /* DoraemonMethodUseTimeListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMethodUseTimeListViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/MethodUseTime/List/DoraemonMethodUseTimeListViewController.m; sourceTree = "<group>"; };
 		92FCA0916464B4C8AA23707E3B5C9C41 /* DoraemonNetFlowDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNetFlowDetailViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/NetFlow/Detail/DoraemonNetFlowDetailViewController.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C9EC704DF1454A012168FEBDD6F311 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		94F626C39BEC308B2DA8E8E9964B0316 /* DoraemonBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonBaseViewController.m; path = iOS/DoraemonKit/Src/Core/Base/DoraemonBaseViewController.m; sourceTree = "<group>"; };
 		953C9C4E4BB416B9D38334543300D80D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
@@ -1099,8 +1099,8 @@
 		B02E032A7C64B02D20932C6E3A653A93 /* PNScatterChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNScatterChart.h; path = PNChart/PNScatterChart.h; sourceTree = "<group>"; };
 		B0471ABD60A6EC9DFA8601A4D8C8B102 /* DoraemonNSLogModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonNSLogModel.m; path = iOS/DoraemonKit/Src/Core/Plugin/NSLog/Function/DoraemonNSLogModel.m; sourceTree = "<group>"; };
 		B0ACF80F0DB13178B559A035D3BD4173 /* DoraemonAllTestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonAllTestManager.h; path = iOS/DoraemonKit/Src/Core/Plugin/AllTest/Function/DoraemonAllTestManager.h; sourceTree = "<group>"; };
-		B0D2847049DE2DC48E9C7D7F21B63E97 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fishhook.c; sourceTree = "<group>"; };
-		B2E532457F2A4361B04BCF550CB9698E /* libUITextView+Placeholder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libUITextView+Placeholder.a"; path = "libUITextView+Placeholder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D2847049DE2DC48E9C7D7F21B63E97 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		B2E532457F2A4361B04BCF550CB9698E /* libUITextView+Placeholder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUITextView+Placeholder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FA269C1902CBE7915AFD2E788BAFE1 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
 		B3BE4CDA2684081EF95268C81394E4C9 /* PNColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNColor.h; path = PNChart/PNColor.h; sourceTree = "<group>"; };
 		B445F966B83FFFF79B487A8611D42924 /* Pods-ThirdPartTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdPartTool.release.xcconfig"; sourceTree = "<group>"; };
@@ -1180,7 +1180,7 @@
 		D0DAF43D41285F2C78652A9865B60518 /* DoraemonANRPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonANRPlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/ANR/DoraemonANRPlugin.h; sourceTree = "<group>"; };
 		D0DE1B690CA2CF8DD679BBDC1213474C /* DoraemonMethodUseTimeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMethodUseTimeManager.m; path = iOS/DoraemonKit/Src/Core/Plugin/MethodUseTime/Function/DoraemonMethodUseTimeManager.m; sourceTree = "<group>"; };
 		D0E58550AF351CAE90CC562C00198735 /* DoraemonViewMetricsConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonViewMetricsConfig.h; path = iOS/DoraemonKit/Src/Core/Plugin/ViewMetrics/Function/DoraemonViewMetricsConfig.h; sourceTree = "<group>"; };
-		D0FC532E7731C3C523F8A52D70967533 /* DoraemonKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DoraemonKit.bundle; path = "DoraemonKit-DoraemonKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FC532E7731C3C523F8A52D70967533 /* DoraemonKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoraemonKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D153127B29323A5F784E7184AFA150CD /* DoraemonCocoaLumberjackListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonCocoaLumberjackListViewController.h; path = iOS/DoraemonKit/Src/Logger/List/DoraemonCocoaLumberjackListViewController.h; sourceTree = "<group>"; };
 		D15AE4650C0FD298971F68B6D2BDBBE1 /* DoraemonMemoryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMemoryViewController.m; path = iOS/DoraemonKit/Src/Core/Plugin/Memory/DoraemonMemoryViewController.m; sourceTree = "<group>"; };
 		D2195334BA523514F816EEF71DACAD20 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
@@ -1244,10 +1244,10 @@
 		E6E906DB1F169BFCC7ADF5F6BD3FD1FF /* doraemon_search@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "doraemon_search@2x.png"; path = "iOS/DoraemonKit/Resource/doraemon_search@2x.png"; sourceTree = "<group>"; };
 		E70FA120CDFF47048E67E79BDA27BBB5 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		E73B8A5E49B17A7E7FA9231127EED939 /* DDLoggerNames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLoggerNames.m; path = Classes/DDLoggerNames.m; sourceTree = "<group>"; };
-		E79EC5405A6ACEBFC377A0FBA41B84FC /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79EC5405A6ACEBFC377A0FBA41B84FC /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86D40554679437C6E2EDDFE3688773D /* DoraemonCocoaLumberjackPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonCocoaLumberjackPlugin.h; path = iOS/DoraemonKit/Src/Logger/DoraemonCocoaLumberjackPlugin.h; sourceTree = "<group>"; };
 		E89EC90E75E88D8327FAE37E8E1D7D82 /* doraemon_file@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "doraemon_file@2x.png"; path = "iOS/DoraemonKit/Resource/doraemon_file@2x.png"; sourceTree = "<group>"; };
-		E967F89C3A58CD2CF07D2F0AD42C8398 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E967F89C3A58CD2CF07D2F0AD42C8398 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BAA6D540AF7ADB5F6E783494965E87 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
 		EA329366E680AF5649F1EFBCC7241679 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		EA62982DE150FE43B6D8B9F06406B386 /* doraemon_search@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "doraemon_search@3x.png"; path = "iOS/DoraemonKit/Resource/doraemon_search@3x.png"; sourceTree = "<group>"; };
@@ -1503,7 +1503,6 @@
 				0F8735E09EE19F39A6132A566A2766D3 /* Resources */,
 				20A1E2BD694EF395CE47F5343B9ECFF4 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -1610,7 +1609,6 @@
 				8E486BE7D6908CE86074694655437116 /* Core */,
 				EA7056C2A4A13C4C90DBD0F7B189F913 /* Support Files */,
 			);
-			name = CocoaLumberjack;
 			path = CocoaLumberjack;
 			sourceTree = "<group>";
 		};
@@ -1653,7 +1651,6 @@
 				107D6A2E08419241894371461BBBD6B8 /* WithGPS */,
 				B75C00D072FE3F35AD2C9087D2D9AD80 /* WithLogger */,
 			);
-			name = DoraemonKit;
 			path = DoraemonKit;
 			sourceTree = "<group>";
 		};
@@ -1707,7 +1704,6 @@
 				29CFC9DFE8EBB2BBCF7C812EF79F50DF /* Support Files */,
 				E7E1AB6CA84A0E6B9E787F4FAA8FF0FF /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1744,7 +1740,6 @@
 				C7F762750A2178B314AB5B96AFA7845F /* UITextView+Placeholder.m */,
 				B57922A71089D0720D44FA1514B4AE0A /* Support Files */,
 			);
-			name = "UITextView+Placeholder";
 			path = "UITextView+Placeholder";
 			sourceTree = "<group>";
 		};
@@ -1766,7 +1761,6 @@
 				E1383A7494DAED8E9E26BFEFCB5A6040 /* fishhook.h */,
 				63629F7C3D4112B711494126A903D9F2 /* Support Files */,
 			);
-			name = fishhook;
 			path = fishhook;
 			sourceTree = "<group>";
 		};
@@ -1816,7 +1810,6 @@
 				1A3E0D75359EF75C32F7A73306912248 /* BSBacktraceLogger.m */,
 				575CF546746B69C586DE75866559DC08 /* Support Files */,
 			);
-			name = BSBacktraceLogger;
 			path = BSBacktraceLogger;
 			sourceTree = "<group>";
 		};
@@ -2178,7 +2171,6 @@
 				37661A8FC151F591A97CE2331BD9C5C5 /* UIScrollView+EmptyDataSet.m */,
 				02A3E38638F683D99C3B9270A26B9FE5 /* Support Files */,
 			);
-			name = DZNEmptyDataSet;
 			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
@@ -2241,7 +2233,6 @@
 				4D00133AAE2DD2258E5BC0CBAAD050EF /* PNScatterChartDataItem.m */,
 				99F97D2012F09C3D40D0442DF87A8864 /* Support Files */,
 			);
-			name = PNChart;
 			path = PNChart;
 			sourceTree = "<group>";
 		};
@@ -2299,7 +2290,6 @@
 				7C0E87FF17B7777BF4C3C13284B1CDAD /* UICountingLabel.m */,
 				45770F12D93C5532F5AF0CD4CCE66E45 /* Support Files */,
 			);
-			name = UICountingLabel;
 			path = UICountingLabel;
 			sourceTree = "<group>";
 		};
@@ -2854,7 +2844,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = CE16362443B842A53F06E4198221B803 /* Products */;
