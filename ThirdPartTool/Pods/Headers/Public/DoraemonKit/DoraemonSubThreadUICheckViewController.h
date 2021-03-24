@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/SubThreadUICheck/DoraemonSubThreadUICheckViewController.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Performance/SubThreadUICheck/DoraemonSubThreadUICheckViewController.h

@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Sanbox/VC/DoraemonSanboxDetailViewController.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Common/Sanbox/VC/DoraemonSanboxDetailViewController.h

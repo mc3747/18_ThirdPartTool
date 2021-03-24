@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/ANR/Function/DoraemonANRManager.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Performance/ANR/Function/DoraemonANRManager.h

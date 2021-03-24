@@ -1,84 +1,36 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
-  - BSBacktraceLogger (0.0.1)
-  - CocoaLumberjack (3.5.1):
-    - CocoaLumberjack/Core (= 3.5.1)
-  - CocoaLumberjack/Core (3.5.1)
-  - DoraemonKit/Core (1.1.4):
-    - AFNetworking
-    - BSBacktraceLogger
-    - fishhook
-    - PNChart
-    - "UITextView+Placeholder"
-  - DoraemonKit/WithGPS (1.1.4):
-    - AFNetworking
-    - BSBacktraceLogger
+  - CocoaLumberjack (3.6.2):
+    - CocoaLumberjack/Core (= 3.6.2)
+  - CocoaLumberjack/Core (3.6.2)
+  - DoraemonKit/Core (3.0.2)
+  - DoraemonKit/WithGPS (3.0.2):
     - DoraemonKit/Core
-    - fishhook
-    - PNChart
-    - "UITextView+Placeholder"
-  - DoraemonKit/WithLogger (1.1.4):
-    - AFNetworking
-    - BSBacktraceLogger
+  - DoraemonKit/WithLogger (3.0.2):
     - CocoaLumberjack
     - DoraemonKit/Core
-    - fishhook
-    - PNChart
-    - "UITextView+Placeholder"
   - DZNEmptyDataSet (1.8.1)
-  - fishhook (0.2)
-  - MJRefresh (3.1.15.7)
-  - PNChart (0.8.9):
-    - UICountingLabel (~> 1.2.0)
-  - UICountingLabel (1.2.0)
-  - "UITextView+Placeholder (1.2.1)"
+  - MJRefresh (3.5.0)
 
 DEPENDENCIES:
   - DoraemonKit/Core
   - DoraemonKit/WithGPS
   - DoraemonKit/WithLogger
-  - DZNEmptyDataSet (~> 1.8.1)
+  - DZNEmptyDataSet
   - MJRefresh
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - AFNetworking
-    - BSBacktraceLogger
+  trunk:
     - CocoaLumberjack
     - DoraemonKit
     - DZNEmptyDataSet
-    - fishhook
     - MJRefresh
-    - PNChart
-    - UICountingLabel
-    - "UITextView+Placeholder"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
-  CocoaLumberjack: 2101f8a5508197a305e737d16c5c2e9e2157628c
-  DoraemonKit: 5660bbbd6abb5ff39a0ff3fb33f153d7745c5c10
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  DoraemonKit: 8587e7a9aae0773dfc96707d2369d89d2a21b3d2
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
-  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
-  PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
-  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
-  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
 
-PODFILE CHECKSUM: 7a70c1f95e43fde1e441ee3f76dee29ac5ed8046
+PODFILE CHECKSUM: 3b4800ef08d4ffc176c4d9fc7f639392b98aa277
 
-COCOAPODS: 1.5.0.beta.1
+COCOAPODS: 1.10.1

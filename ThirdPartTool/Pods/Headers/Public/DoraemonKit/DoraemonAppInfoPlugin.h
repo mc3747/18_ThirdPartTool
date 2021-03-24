@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/AppInfo/DoraemonAppInfoPlugin.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Common/AppInfo/DoraemonAppInfoPlugin.h

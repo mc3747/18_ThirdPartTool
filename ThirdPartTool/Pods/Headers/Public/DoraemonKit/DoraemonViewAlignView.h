@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/ViewAlign/Function/DoraemonViewAlignView.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/UI/ViewAlign/Function/DoraemonViewAlignView.h

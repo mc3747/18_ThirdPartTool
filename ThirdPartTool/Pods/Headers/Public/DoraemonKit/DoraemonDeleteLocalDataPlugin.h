@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/DeleteLocalData/DoraemonDeleteLocalDataPlugin.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Common/DeleteLocalData/DoraemonDeleteLocalDataPlugin.h

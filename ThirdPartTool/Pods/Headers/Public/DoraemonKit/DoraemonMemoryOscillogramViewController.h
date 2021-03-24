@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Memory/Function/DoraemonMemoryOscillogramViewController.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Performance/Memory/Function/DoraemonMemoryOscillogramViewController.h

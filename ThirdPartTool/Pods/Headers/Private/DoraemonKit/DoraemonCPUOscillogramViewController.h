@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/CPU/Function/DoraemonCPUOscillogramViewController.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Performance/CPU/Function/DoraemonCPUOscillogramViewController.h

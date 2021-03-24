@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/ViewMetrics/DoraemonMetricsViewController.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/UI/ViewMetrics/DoraemonMetricsViewController.h

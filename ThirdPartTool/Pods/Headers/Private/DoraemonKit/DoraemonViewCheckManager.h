@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/ViewCheck/Function/DoraemonViewCheckManager.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/UI/ViewCheck/Function/DoraemonViewCheckManager.h

@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/ColorPick/Function/DoraemonColorPickInfoWindow.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/UI/ColorPick/Function/DoraemonColorPickInfoWindow.h

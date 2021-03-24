@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/FPS/DoraemonFPSPlugin.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Performance/FPS/DoraemonFPSPlugin.h

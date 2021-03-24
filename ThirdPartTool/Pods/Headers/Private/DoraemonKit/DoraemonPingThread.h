@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/ANR/Function/DoraemonPingThread.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Performance/ANR/Function/DoraemonPingThread.h

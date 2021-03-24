@@ -1,1 +1,1 @@
-../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/NSLog/DoraemonNSLogViewController.h
+../../../DoraemonKit/iOS/DoraemonKit/Src/Core/Plugin/Common/NSLog/DoraemonNSLogViewController.h
