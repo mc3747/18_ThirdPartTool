@@ -1,50 +1,39 @@
 //
-//  ViewController.m
+//  AlibabaVC.m
 //  ThirdPartTool
 //
-//  Created by gjfax on 2019/2/15.
+//  Created by gjfax on 2019/3/12.
 //  Copyright © 2019 macheng. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AlibabaVC.h"
 #import "ElegantTableViewGenerator.h"
 
-
-@interface ViewController ()
+@interface AlibabaVC ()
 @property (nonatomic, strong) ElegantTableViewGenerator *tableViewGenerator;
 @end
 
-@implementation ViewController
+@implementation AlibabaVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.title = @"大厂iOS开源";
+    NSArray *titles =  @[@"1,开源地址",@"2,动态化方案Tangram",@"3,提高协程的coobjc",@"4,模块化编程BeeHive"];
+    NSArray *subTitles = @[@"阿里开源地址：https://opsx.alibaba.com/opensource?lang=zh-CN",@"uni-app详解\nuni-app详解",@"",@""];
     
-    NSArray *titles = @[@"1_滴滴",@"2_美团",@"3_字节",@"4_阿里",@"5_百度",@"6_腾讯"];
-    NSArray *images = @[@"didi",@"meituan",@"jinritoutiao",@"alibaba",@"baidu",@"tengxunwang"];
-    NSArray *vcNames = @[@"",@"",@"",@"AlibabaVC",@"",@"TencentVC"];
     self.tableViewGenerator = [ElegantTableViewGenerator createWithFrame:self.view.bounds
                                                         titles:titles
-                                                        subTitles:nil
-                                                        images:images
+                                                        subTitles:subTitles
+                                                        images:nil
                                                         rowHeight:60
                                                        didSelectRowBlock:^(UITableView *tableView, NSIndexPath *indexPath) {
         NSLog(@"点击TableView-->%ld", (long)indexPath.row);
-        [self jumpToVC:vcNames[indexPath.row]];
+       
     }                                                   didScrollBlock:^(UIScrollView *tableView, CGPoint contentOffset) {
         NSLog(@"滚动TableView-->%@", NSStringFromCGPoint(contentOffset));
        
     }];
     
     [self.view addSubview:self.tableViewGenerator.tableView];
-   
 }
 
-#pragma mark -  控制器跳转
-- (void)jumpToVC:(NSString *)vcName {
-    Class class = NSClassFromString(vcName);
-    UIViewController *view = [[class alloc] init];
-    [self.navigationController pushViewController:view animated:YES];
-}
 @end

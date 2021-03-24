@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HSSetTableViewController.h"
 
-@interface ViewController : HSSetTableViewMainController
+
+@interface ViewController : UIViewController
 
 
 @end
