@@ -134,12 +134,10 @@
 		4212D9CD2216B4E6004A7BA8 /* ThirdPartTool */ = {
 			isa = PBXGroup;
 			children = (
-				4BB6434B260B41C6003355C6 /* 1，滴滴 */,
-				4BB6434F260B41C6003355C6 /* 2，美团 */,
-				4BB64350260B41C6003355C6 /* 3，字节 */,
-				4BB6434C260B41C6003355C6 /* 4，阿里 */,
-				4BB64351260B41C6003355C6 /* 5，百度 */,
-				4BB64352260B41C6003355C6 /* 6，腾讯 */,
+				5CE3336E260B8C5F00DE11DA /* 4-优秀个人 */,
+				5CE3336D260B8C5100DE11DA /* 3-优秀仓库 */,
+				5CE3336C260B8C4300DE11DA /* 2-国际大厂 */,
+				5CE3336B260B8C2C00DE11DA /* 1-国内大厂 */,
 				4212D9CF2216B4E6004A7BA8 /* AppDelegate.m */,
 				4212D9CE2216B4E6004A7BA8 /* AppDelegate.h */,
 				4212D9D12216B4E6004A7BA8 /* ViewController.h */,
@@ -185,7 +183,8 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = "1，滴滴";
+			name = "1，滴滴";
+			path = "../1，滴滴";
 			sourceTree = "<group>";
 		};
 		4BB6434C260B41C6003355C6 /* 4，阿里 */ = {
@@ -201,21 +200,24 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = "2，美团";
+			name = "2，美团";
+			path = "../2，美团";
 			sourceTree = "<group>";
 		};
 		4BB64350260B41C6003355C6 /* 3，字节 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "3，字节";
+			name = "3，字节";
+			path = "../3，字节";
 			sourceTree = "<group>";
 		};
 		4BB64351260B41C6003355C6 /* 5，百度 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "5，百度";
+			name = "5，百度";
+			path = "../5，百度";
 			sourceTree = "<group>";
 		};
 		4BB64352260B41C6003355C6 /* 6，腾讯 */ = {
@@ -225,6 +227,40 @@
 				4BB64358260B42E5003355C6 /* TencentVC.m */,
 			);
 			path = "6，腾讯";
+			sourceTree = "<group>";
+		};
+		5CE3336B260B8C2C00DE11DA /* 1-国内大厂 */ = {
+			isa = PBXGroup;
+			children = (
+				4BB6434B260B41C6003355C6 /* 1，滴滴 */,
+				4BB6434F260B41C6003355C6 /* 2，美团 */,
+				4BB64350260B41C6003355C6 /* 3，字节 */,
+				4BB6434C260B41C6003355C6 /* 4，阿里 */,
+				4BB64351260B41C6003355C6 /* 5，百度 */,
+				4BB64352260B41C6003355C6 /* 6，腾讯 */,
+			);
+			path = "1-国内大厂";
+			sourceTree = "<group>";
+		};
+		5CE3336C260B8C4300DE11DA /* 2-国际大厂 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2-国际大厂";
+			sourceTree = "<group>";
+		};
+		5CE3336D260B8C5100DE11DA /* 3-优秀仓库 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3-优秀仓库";
+			sourceTree = "<group>";
+		};
+		5CE3336E260B8C5F00DE11DA /* 4-优秀个人 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4-优秀个人";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
