@@ -6,11 +6,11 @@
 //  Copyright © 2019 macheng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "YUTestViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AlibabaVC : UIViewController
+@interface AlibabaVC : YUTestViewController
 
 @end
 

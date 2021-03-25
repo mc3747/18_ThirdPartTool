@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "ElegantTableViewGenerator.h"
-
+#import "YUTestViewController.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) ElegantTableViewGenerator *tableViewGenerator;
@@ -30,10 +30,12 @@
                                                         images:images
                                                         rowHeight:60
                                                        didSelectRowBlock:^(UITableView *tableView, NSIndexPath *indexPath) {
-        NSLog(@"点击TableView-->%ld", (long)indexPath.row);
+//        NSLog(@"点击TableView-->%ld", (long)indexPath.row);
         [self jumpToVC:vcNames[indexPath.row]];
+        
+   
     }                                                   didScrollBlock:^(UIScrollView *tableView, CGPoint contentOffset) {
-        NSLog(@"滚动TableView-->%@", NSStringFromCGPoint(contentOffset));
+//        NSLog(@"滚动TableView-->%@", NSStringFromCGPoint(contentOffset));
        
     }];
     

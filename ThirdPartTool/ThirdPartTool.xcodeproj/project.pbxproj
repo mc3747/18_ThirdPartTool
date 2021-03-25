@@ -15,6 +15,10 @@
 		4212D9DE2216B4E9004A7BA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9DD2216B4E9004A7BA8 /* main.m */; };
 		4212D9E82216B4E9004A7BA8 /* ThirdPartToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9E72216B4E9004A7BA8 /* ThirdPartToolTests.m */; };
 		4212D9F32216B4E9004A7BA8 /* ThirdPartToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9F22216B4E9004A7BA8 /* ThirdPartToolUITests.m */; };
+		4B61CFE8260C195D00A3A920 /* YUFoldingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61CFE3260C195D00A3A920 /* YUFoldingTableView.m */; };
+		4B61CFE9260C195D00A3A920 /* YUFoldingSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61CFE4260C195D00A3A920 /* YUFoldingSectionHeader.m */; };
+		4B61CFEA260C195D00A3A920 /* YUFolding_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B61CFE6260C195D00A3A920 /* YUFolding_arrow.png */; };
+		4B61CFF0260C198100A3A920 /* YUTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61CFEE260C198100A3A920 /* YUTestViewController.m */; };
 		4BB64343260B3A02003355C6 /* ElegantTableViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB64341260B3A02003355C6 /* ElegantTableViewGenerator.m */; };
 		4BB64353260B41C6003355C6 /* AlibabaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB6434E260B41C6003355C6 /* AlibabaVC.m */; };
 		4BB64359260B42E5003355C6 /* TencentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB64358260B42E5003355C6 /* TencentVC.m */; };
@@ -55,6 +59,13 @@
 		4212D9EE2216B4E9004A7BA8 /* ThirdPartToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThirdPartToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4212D9F22216B4E9004A7BA8 /* ThirdPartToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdPartToolUITests.m; sourceTree = "<group>"; };
 		4212D9F42216B4E9004A7BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B61CFE3260C195D00A3A920 /* YUFoldingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUFoldingTableView.m; sourceTree = "<group>"; };
+		4B61CFE4260C195D00A3A920 /* YUFoldingSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUFoldingSectionHeader.m; sourceTree = "<group>"; };
+		4B61CFE5260C195D00A3A920 /* YUFoldingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUFoldingTableView.h; sourceTree = "<group>"; };
+		4B61CFE6260C195D00A3A920 /* YUFolding_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YUFolding_arrow.png; sourceTree = "<group>"; };
+		4B61CFE7260C195D00A3A920 /* YUFoldingSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUFoldingSectionHeader.h; sourceTree = "<group>"; };
+		4B61CFEE260C198100A3A920 /* YUTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUTestViewController.m; sourceTree = "<group>"; };
+		4B61CFEF260C198100A3A920 /* YUTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUTestViewController.h; sourceTree = "<group>"; };
 		4BB64341260B3A02003355C6 /* ElegantTableViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElegantTableViewGenerator.m; sourceTree = "<group>"; };
 		4BB64342260B3A02003355C6 /* ElegantTableViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElegantTableViewGenerator.h; sourceTree = "<group>"; };
 		4BB6434D260B41C6003355C6 /* AlibabaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlibabaVC.h; sourceTree = "<group>"; };
@@ -142,6 +153,7 @@
 				4212D9CE2216B4E6004A7BA8 /* AppDelegate.h */,
 				4212D9D12216B4E6004A7BA8 /* ViewController.h */,
 				4212D9D22216B4E6004A7BA8 /* ViewController.m */,
+				4B61CFE2260C195D00A3A920 /* YUFoldingTableView */,
 				4BB64340260B3A02003355C6 /* ElegantTableView */,
 				4212D9D42216B4E6004A7BA8 /* Main.storyboard */,
 				4212D9D72216B4E9004A7BA8 /* Assets.xcassets */,
@@ -168,6 +180,18 @@
 				4212D9F42216B4E9004A7BA8 /* Info.plist */,
 			);
 			path = ThirdPartToolUITests;
+			sourceTree = "<group>";
+		};
+		4B61CFE2260C195D00A3A920 /* YUFoldingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4B61CFE5260C195D00A3A920 /* YUFoldingTableView.h */,
+				4B61CFE3260C195D00A3A920 /* YUFoldingTableView.m */,
+				4B61CFE7260C195D00A3A920 /* YUFoldingSectionHeader.h */,
+				4B61CFE4260C195D00A3A920 /* YUFoldingSectionHeader.m */,
+				4B61CFE6260C195D00A3A920 /* YUFolding_arrow.png */,
+			);
+			path = YUFoldingTableView;
 			sourceTree = "<group>";
 		};
 		4BB64340260B3A02003355C6 /* ElegantTableView */ = {
@@ -232,6 +256,8 @@
 		5CE3336B260B8C2C00DE11DA /* 1-国内大厂 */ = {
 			isa = PBXGroup;
 			children = (
+				4B61CFEF260C198100A3A920 /* YUTestViewController.h */,
+				4B61CFEE260C198100A3A920 /* YUTestViewController.m */,
 				4BB6434B260B41C6003355C6 /* 1，滴滴 */,
 				4BB6434F260B41C6003355C6 /* 2，美团 */,
 				4BB64350260B41C6003355C6 /* 3，字节 */,
@@ -369,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4212D9DB2216B4E9004A7BA8 /* LaunchScreen.storyboard in Resources */,
+				4B61CFEA260C195D00A3A920 /* YUFolding_arrow.png in Resources */,
 				4212D9D82216B4E9004A7BA8 /* Assets.xcassets in Resources */,
 				4212D9D62216B4E6004A7BA8 /* Main.storyboard in Resources */,
 			);
@@ -435,10 +462,13 @@
 			files = (
 				4BB64353260B41C6003355C6 /* AlibabaVC.m in Sources */,
 				4212D9D32216B4E6004A7BA8 /* ViewController.m in Sources */,
+				4B61CFE9260C195D00A3A920 /* YUFoldingSectionHeader.m in Sources */,
 				4BB64359260B42E5003355C6 /* TencentVC.m in Sources */,
 				4BB64343260B3A02003355C6 /* ElegantTableViewGenerator.m in Sources */,
 				4212D9DE2216B4E9004A7BA8 /* main.m in Sources */,
 				4212D9D02216B4E6004A7BA8 /* AppDelegate.m in Sources */,
+				4B61CFE8260C195D00A3A920 /* YUFoldingTableView.m in Sources */,
+				4B61CFF0260C198100A3A920 /* YUTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
