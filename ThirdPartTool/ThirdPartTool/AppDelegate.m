@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "BaseTabBarVC.h"
 #import <DoraemonKit.h>
 
 @interface AppDelegate ()
@@ -18,10 +18,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-        ViewController *VC = [[ViewController alloc] init];
-    UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:VC];
+        
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = naviVC;
+    self.window.rootViewController = [BaseTabBarVC new];
     [self.window makeKeyAndVisible];
     
     [[DoraemonManager shareInstance] install];

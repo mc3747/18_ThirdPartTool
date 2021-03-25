@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4212D9D02216B4E6004A7BA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9CF2216B4E6004A7BA8 /* AppDelegate.m */; };
-		4212D9D32216B4E6004A7BA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9D22216B4E6004A7BA8 /* ViewController.m */; };
+		4212D9D32216B4E6004A7BA8 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9D22216B4E6004A7BA8 /* ViewController1.m */; };
 		4212D9D62216B4E6004A7BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4212D9D42216B4E6004A7BA8 /* Main.storyboard */; };
 		4212D9D82216B4E9004A7BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4212D9D72216B4E9004A7BA8 /* Assets.xcassets */; };
 		4212D9DB2216B4E9004A7BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4212D9D92216B4E9004A7BA8 /* LaunchScreen.storyboard */; };
@@ -19,6 +19,11 @@
 		4B61CFE9260C195D00A3A920 /* YUFoldingSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61CFE4260C195D00A3A920 /* YUFoldingSectionHeader.m */; };
 		4B61CFEA260C195D00A3A920 /* YUFolding_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B61CFE6260C195D00A3A920 /* YUFolding_arrow.png */; };
 		4B61CFF0260C198100A3A920 /* YUTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61CFEE260C198100A3A920 /* YUTestViewController.m */; };
+		4B61D005260C62EB00A3A920 /* BaseTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61D004260C62EB00A3A920 /* BaseTabBarVC.m */; };
+		4B61D01B260C63F800A3A920 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61D014260C63F800A3A920 /* ViewController3.m */; };
+		4B61D01C260C63F800A3A920 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61D016260C63F800A3A920 /* ViewController2.m */; };
+		4B61D01D260C63F800A3A920 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61D01A260C63F800A3A920 /* ViewController4.m */; };
+		4B61D023260C64FE00A3A920 /* BaseNaviVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61D022260C64FE00A3A920 /* BaseNaviVC.m */; };
 		4BB64343260B3A02003355C6 /* ElegantTableViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB64341260B3A02003355C6 /* ElegantTableViewGenerator.m */; };
 		4BB64353260B41C6003355C6 /* AlibabaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB6434E260B41C6003355C6 /* AlibabaVC.m */; };
 		4BB64359260B42E5003355C6 /* TencentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB64358260B42E5003355C6 /* TencentVC.m */; };
@@ -46,8 +51,8 @@
 		4212D9CB2216B4E6004A7BA8 /* ThirdPartTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdPartTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4212D9CE2216B4E6004A7BA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4212D9CF2216B4E6004A7BA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4212D9D12216B4E6004A7BA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4212D9D22216B4E6004A7BA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4212D9D12216B4E6004A7BA8 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		4212D9D22216B4E6004A7BA8 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		4212D9D52216B4E6004A7BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4212D9D72216B4E9004A7BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4212D9DA2216B4E9004A7BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,6 +71,16 @@
 		4B61CFE7260C195D00A3A920 /* YUFoldingSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUFoldingSectionHeader.h; sourceTree = "<group>"; };
 		4B61CFEE260C198100A3A920 /* YUTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUTestViewController.m; sourceTree = "<group>"; };
 		4B61CFEF260C198100A3A920 /* YUTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUTestViewController.h; sourceTree = "<group>"; };
+		4B61D003260C62EB00A3A920 /* BaseTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarVC.h; sourceTree = "<group>"; };
+		4B61D004260C62EB00A3A920 /* BaseTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarVC.m; sourceTree = "<group>"; };
+		4B61D013260C63F800A3A920 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		4B61D014260C63F800A3A920 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		4B61D016260C63F800A3A920 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		4B61D017260C63F800A3A920 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		4B61D019260C63F800A3A920 /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		4B61D01A260C63F800A3A920 /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		4B61D021260C64FE00A3A920 /* BaseNaviVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNaviVC.h; sourceTree = "<group>"; };
+		4B61D022260C64FE00A3A920 /* BaseNaviVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNaviVC.m; sourceTree = "<group>"; };
 		4BB64341260B3A02003355C6 /* ElegantTableViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElegantTableViewGenerator.m; sourceTree = "<group>"; };
 		4BB64342260B3A02003355C6 /* ElegantTableViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElegantTableViewGenerator.h; sourceTree = "<group>"; };
 		4BB6434D260B41C6003355C6 /* AlibabaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlibabaVC.h; sourceTree = "<group>"; };
@@ -145,14 +160,16 @@
 		4212D9CD2216B4E6004A7BA8 /* ThirdPartTool */ = {
 			isa = PBXGroup;
 			children = (
-				5CE3336E260B8C5F00DE11DA /* 4-优秀个人 */,
-				5CE3336D260B8C5100DE11DA /* 3-优秀仓库 */,
-				5CE3336C260B8C4300DE11DA /* 2-国际大厂 */,
 				5CE3336B260B8C2C00DE11DA /* 1-国内大厂 */,
-				4212D9CF2216B4E6004A7BA8 /* AppDelegate.m */,
+				4B61D015260C63F800A3A920 /* 2-国际大厂 */,
+				4B61D012260C63F800A3A920 /* 3-优秀仓库 */,
+				4B61D018260C63F800A3A920 /* 4-优秀个人 */,
 				4212D9CE2216B4E6004A7BA8 /* AppDelegate.h */,
-				4212D9D12216B4E6004A7BA8 /* ViewController.h */,
-				4212D9D22216B4E6004A7BA8 /* ViewController.m */,
+				4212D9CF2216B4E6004A7BA8 /* AppDelegate.m */,
+				4B61D021260C64FE00A3A920 /* BaseNaviVC.h */,
+				4B61D022260C64FE00A3A920 /* BaseNaviVC.m */,
+				4B61D003260C62EB00A3A920 /* BaseTabBarVC.h */,
+				4B61D004260C62EB00A3A920 /* BaseTabBarVC.m */,
 				4B61CFE2260C195D00A3A920 /* YUFoldingTableView */,
 				4BB64340260B3A02003355C6 /* ElegantTableView */,
 				4212D9D42216B4E6004A7BA8 /* Main.storyboard */,
@@ -185,6 +202,8 @@
 		4B61CFE2260C195D00A3A920 /* YUFoldingTableView */ = {
 			isa = PBXGroup;
 			children = (
+				4B61CFEF260C198100A3A920 /* YUTestViewController.h */,
+				4B61CFEE260C198100A3A920 /* YUTestViewController.m */,
 				4B61CFE5260C195D00A3A920 /* YUFoldingTableView.h */,
 				4B61CFE3260C195D00A3A920 /* YUFoldingTableView.m */,
 				4B61CFE7260C195D00A3A920 /* YUFoldingSectionHeader.h */,
@@ -192,6 +211,33 @@
 				4B61CFE6260C195D00A3A920 /* YUFolding_arrow.png */,
 			);
 			path = YUFoldingTableView;
+			sourceTree = "<group>";
+		};
+		4B61D012260C63F800A3A920 /* 3-优秀仓库 */ = {
+			isa = PBXGroup;
+			children = (
+				4B61D013260C63F800A3A920 /* ViewController3.h */,
+				4B61D014260C63F800A3A920 /* ViewController3.m */,
+			);
+			path = "3-优秀仓库";
+			sourceTree = "<group>";
+		};
+		4B61D015260C63F800A3A920 /* 2-国际大厂 */ = {
+			isa = PBXGroup;
+			children = (
+				4B61D017260C63F800A3A920 /* ViewController2.h */,
+				4B61D016260C63F800A3A920 /* ViewController2.m */,
+			);
+			path = "2-国际大厂";
+			sourceTree = "<group>";
+		};
+		4B61D018260C63F800A3A920 /* 4-优秀个人 */ = {
+			isa = PBXGroup;
+			children = (
+				4B61D019260C63F800A3A920 /* ViewController4.h */,
+				4B61D01A260C63F800A3A920 /* ViewController4.m */,
+			);
+			path = "4-优秀个人";
 			sourceTree = "<group>";
 		};
 		4BB64340260B3A02003355C6 /* ElegantTableView */ = {
@@ -256,8 +302,8 @@
 		5CE3336B260B8C2C00DE11DA /* 1-国内大厂 */ = {
 			isa = PBXGroup;
 			children = (
-				4B61CFEF260C198100A3A920 /* YUTestViewController.h */,
-				4B61CFEE260C198100A3A920 /* YUTestViewController.m */,
+				4212D9D12216B4E6004A7BA8 /* ViewController1.h */,
+				4212D9D22216B4E6004A7BA8 /* ViewController1.m */,
 				4BB6434B260B41C6003355C6 /* 1，滴滴 */,
 				4BB6434F260B41C6003355C6 /* 2，美团 */,
 				4BB64350260B41C6003355C6 /* 3，字节 */,
@@ -266,27 +312,6 @@
 				4BB64352260B41C6003355C6 /* 6，腾讯 */,
 			);
 			path = "1-国内大厂";
-			sourceTree = "<group>";
-		};
-		5CE3336C260B8C4300DE11DA /* 2-国际大厂 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "2-国际大厂";
-			sourceTree = "<group>";
-		};
-		5CE3336D260B8C5100DE11DA /* 3-优秀仓库 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "3-优秀仓库";
-			sourceTree = "<group>";
-		};
-		5CE3336E260B8C5F00DE11DA /* 4-优秀个人 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "4-优秀个人";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,14 +486,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BB64353260B41C6003355C6 /* AlibabaVC.m in Sources */,
-				4212D9D32216B4E6004A7BA8 /* ViewController.m in Sources */,
+				4B61D023260C64FE00A3A920 /* BaseNaviVC.m in Sources */,
+				4212D9D32216B4E6004A7BA8 /* ViewController1.m in Sources */,
 				4B61CFE9260C195D00A3A920 /* YUFoldingSectionHeader.m in Sources */,
+				4B61D005260C62EB00A3A920 /* BaseTabBarVC.m in Sources */,
 				4BB64359260B42E5003355C6 /* TencentVC.m in Sources */,
+				4B61D01C260C63F800A3A920 /* ViewController2.m in Sources */,
 				4BB64343260B3A02003355C6 /* ElegantTableViewGenerator.m in Sources */,
 				4212D9DE2216B4E9004A7BA8 /* main.m in Sources */,
 				4212D9D02216B4E6004A7BA8 /* AppDelegate.m in Sources */,
 				4B61CFE8260C195D00A3A920 /* YUFoldingTableView.m in Sources */,
+				4B61D01D260C63F800A3A920 /* ViewController4.m in Sources */,
 				4B61CFF0260C198100A3A920 /* YUTestViewController.m in Sources */,
+				4B61D01B260C63F800A3A920 /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

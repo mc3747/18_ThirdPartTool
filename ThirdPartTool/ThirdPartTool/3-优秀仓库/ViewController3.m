@@ -6,41 +6,41 @@
 //  Copyright © 2019 macheng. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ViewController3.h"
 #import "ElegantTableViewGenerator.h"
 #import "YUTestViewController.h"
 
-@interface ViewController ()
+@interface ViewController3 ()
 @property (nonatomic, strong) ElegantTableViewGenerator *tableViewGenerator;
 @end
 
-@implementation ViewController
+@implementation ViewController3
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.title = @"大厂iOS开源";
+    
+    self.title = @"优秀仓库";
     
     NSArray *titles = @[@"1_滴滴",@"2_美团",@"3_字节",@"4_阿里",@"5_百度",@"6_腾讯"];
     NSArray *images = @[@"didi",@"meituan",@"jinritoutiao",@"alibaba",@"baidu",@"tengxunwang"];
     NSArray *vcNames = @[@"",@"",@"",@"AlibabaVC",@"",@"TencentVC"];
     self.tableViewGenerator = [ElegantTableViewGenerator createWithFrame:self.view.bounds
-                                                        titles:titles
-                                                        subTitles:nil
-                                                        images:images
-                                                        rowHeight:60
+                                                                  titles:titles
+                                                               subTitles:nil
+                                                                  images:images
+                                                               rowHeight:60
                                                        didSelectRowBlock:^(UITableView *tableView, NSIndexPath *indexPath) {
-//        NSLog(@"点击TableView-->%ld", (long)indexPath.row);
+        
         [self jumpToVC:vcNames[indexPath.row]];
         
-   
+        
     }                                                   didScrollBlock:^(UIScrollView *tableView, CGPoint contentOffset) {
-//        NSLog(@"滚动TableView-->%@", NSStringFromCGPoint(contentOffset));
-       
+        
+        
     }];
     
     [self.view addSubview:self.tableViewGenerator.tableView];
-   
+    
 }
 
 #pragma mark -  控制器跳转
