@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    国外设计大厂Random：https://github.com/Ramotion
     
     self.title = @"国际大厂";
     
