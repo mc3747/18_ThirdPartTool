@@ -7,7 +7,7 @@
 //
 
 #import "YUTestViewController.h"
-
+#import "XYWKWebViewController.h"
 @interface YUTestViewController ()
 
 @property (nonatomic, weak) YUFoldingTableView *foldingTableView;
@@ -40,13 +40,21 @@
     if (self.arrowPosition) {
         foldingTableView.foldingState = YUFoldingSectionStateShow;
     }
- 
+    
     //用来控制每个section的折叠状态
-//    if (self.index == 2) {
-//        foldingTableView.sectionStateArray = @[@"1", @"0", @"0", @"1", @"1"];
-//    }
+    //    if (self.index == 2) {
+    //        foldingTableView.sectionStateArray = @[@"1", @"0", @"0", @"1", @"1"];
+    //    }
 }
-
+- (void)setSectionTitles:(NSArray<NSString *> *)sectionTitles{
+    _sectionTitles = sectionTitles;
+    NSMutableArray *test = [[NSMutableArray alloc]init];
+    for (int i = 0; i < _sectionTitles.count; i++) {
+        [test addObject:@"1"];
+    }
+    _foldingTableView.sectionStateArray = test;
+    
+}
 #pragma mark - YUFoldingTableViewDelegate / required（必须实现的代理）
 - (NSInteger )numberOfSectionForYUFoldingTableView:(YUFoldingTableView *)yuTableView
 {
@@ -78,12 +86,18 @@
 
 - (NSString *)yuFoldingTableView:(YUFoldingTableView *)yuTableView titleForHeaderInSection:(NSInteger)section
 {
-//    return [NSString stringWithFormat:@"Title %ld",(long)section];
+    //    return [NSString stringWithFormat:@"Title %ld",(long)section];
     return _sectionTitles[section];
 }
 
 - (void )yuFoldingTableView:(YUFoldingTableView *)yuTableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if (indexPath.section == 0) {
+        XYWKWebViewController *vc = [[XYWKWebViewController alloc]init];
+        vc.url = _cellTitles[indexPath.section][indexPath.row];
+//        vc.url = @"https://www.baidu.com";
+        [self.navigationController pushViewController:vc animated:YES];
+    }
     [yuTableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
@@ -96,7 +110,7 @@
 
 - (NSString *)yuFoldingTableView:(YUFoldingTableView *)yuTableView descriptionForHeaderInSection:(NSInteger )section
 {
-    return @"detailText";
+    return @"";
 }
 
 

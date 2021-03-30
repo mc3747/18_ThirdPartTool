@@ -39,10 +39,10 @@
     
     ViewController4 *vc4 = [ViewController4 new];
     
-    [self setupChirdVC:vc1 :@"国内大厂" imageName:@"home_tabbar_1"];
-    [self setupChirdVC:vc2 :@"国际大厂" imageName:@"home_tabbar_1"];
-    [self setupChirdVC:vc3 :@"优秀仓库" imageName:@"home_tabbar_1"];
-    [self setupChirdVC:vc4 :@"优秀个人" imageName:@"home_tabbar_1"];
+    [self setupChirdVC:vc1 :@"国内大厂" imageName:@"home_tabbar_1_"];
+    [self setupChirdVC:vc2 :@"国际大厂" imageName:@"home_tabbar_2_"];
+    [self setupChirdVC:vc3 :@"优秀仓库" imageName:@"home_tabbar_3_"];
+    [self setupChirdVC:vc4 :@"优秀个人" imageName:@"home_tabbar_4_"];
 }
 
 - (void)setupChirdVC:(UIViewController *)vc :(NSString *)title imageName:(NSString *)imageName{
@@ -51,7 +51,7 @@
     image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     vc.tabBarItem.image = image;
     UIImage *pressImage = [UIImage imageNamed:@"home_tabbar_press"];
-    pressImage = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+//    pressImage = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     vc.tabBarItem.selectedImage = pressImage;
     BaseNaviVC *navi = [[BaseNaviVC alloc] initWithRootViewController:vc];
     [self addChildViewController:navi];

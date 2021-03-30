@@ -21,9 +21,9 @@
     
     self.title = @"国内大厂";
     
-    NSArray *titles = @[@"1_滴滴",@"2_美团",@"3_字节",@"4_阿里",@"5_百度",@"6_腾讯"];
-    NSArray *images = @[@"didi",@"meituan",@"jinritoutiao",@"alibaba",@"baidu",@"tengxunwang"];
-    NSArray *vcNames = @[@"",@"",@"",@"AlibabaVC",@"",@"TencentVC"];
+    NSArray *titles = @[@"1_滴滴",@"2_美团",@"3_字节",@"4_阿里",@"5_百度",@"6_腾讯",@"7_京东",@"8_小米",@"9_网易"];
+    NSArray *images = @[@"didi",@"meituan",@"jinritoutiao",@"alibaba",@"baidu",@"tengxunwang",@"",@"",@""];
+    NSArray *vcNames = @[@"DiDiVC",@"MeiTuanVC",@"ByteDanceVC",@"AlibabaVC",@"BaiDuVC",@"TencentVC",@"JingDongVC",@"XiaoMiVC",@"NeteaseVC"];
     self.tableViewGenerator = [ElegantTableViewGenerator createWithFrame:self.view.bounds
                                                                   titles:titles
                                                                subTitles:nil

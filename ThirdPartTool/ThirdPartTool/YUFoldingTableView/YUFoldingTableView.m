@@ -106,11 +106,6 @@ id YUSafeObject(NSArray *array, NSInteger index) {
         }
     }
     //此处更新状态
-    NSMutableArray *state = [NSMutableArray array];
-    for (int i; i < 20; i++) {
-        [state addObject:@"1"];
-    }
-    _sectionStateArray = state;
     if (_sectionStateArray.count) {
         NSMutableArray *tempStatusArrayM = [NSMutableArray array];
         for (int i = 0; i < _statusArray.count; i++) {
@@ -123,11 +118,21 @@ id YUSafeObject(NSArray *array, NSInteger index) {
         _statusArray = tempStatusArrayM;
         _sectionStateArray = nil;
     }
-    
-    
     return _statusArray;
 }
 
+//强制每次都展开
+- (void)setSectionStateArray:(NSArray *)sectionStateArray{
+    _sectionStateArray = sectionStateArray;
+    if (_sectionStateArray.count) {
+        NSMutableArray *tempStatusArrayM = [NSMutableArray array];
+        for (int i = 0; i < sectionStateArray.count; i++) {
+                [tempStatusArrayM addObject:@"1"];
+        }
+        _statusArray = tempStatusArrayM;
+        _sectionStateArray = nil;
+    }
+}
 - (void)onChangeStatusBarOrientationNotification:(NSNotification *)notification
 {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

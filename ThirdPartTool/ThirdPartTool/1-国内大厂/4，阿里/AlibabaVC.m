@@ -18,7 +18,7 @@
     [super viewDidLoad];
     self.title = @"阿里";
     self.sectionTitles = @[@"1,开源地址",@"2,OC常见项目",@"3,swift常见项目"];
-    self.cellTitles = @[@[@""],@[@"1,动态化方案Tangram",@"2,提高协程的coobjc",@"3,模块化编程BeeHive"],@[@""]];
+    self.cellTitles = @[@[@"https://github.com/alibaba",@"https://github.com/NewbeeFE",],@[@"1,动态化方案Tangram",@"2,提高协程的coobjc",@"3,模块化编程BeeHive"],@[@""]];
    
 }
 
