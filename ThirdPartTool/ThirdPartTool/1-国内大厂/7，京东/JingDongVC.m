@@ -19,7 +19,7 @@
     [super viewDidLoad];
     self.title = @"京东";
     self.sectionTitles = @[@"1,开源地址",@"2,OC项目"];
-    self.cellTitles = @[@[@"https://github.com/NervJS",@"https://github.com/o2team",],@[@"2,QMUI_iOS（UI开发）",@"3,MLeaksFinder（内存泄露）",@"4,LKImageKit（图片优化）"]];
+    self.cellTitles = @[@[@"https://github.com/NervJS",@"https://github.com/o2team",],@[@""]];
 }
 
 @end

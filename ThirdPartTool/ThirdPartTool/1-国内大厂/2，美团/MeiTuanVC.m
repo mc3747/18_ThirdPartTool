@@ -19,7 +19,7 @@
     [super viewDidLoad];
     self.title = @"美团";
     self.sectionTitles = @[@"1,开源地址",@"2,OC项目"];
-    self.cellTitles = @[@[@"https://github.com/meituan-dianping"],@[@"2,QMUI_iOS（UI开发）",@"3,MLeaksFinder（内存泄露）",@"4,LKImageKit（图片优化）"]];
+    self.cellTitles = @[@[@"https://github.com/meituan-dianping"],@[@"1,Logan（移动端日志框架）",@"2,lyrebird（移动端插件式测试平台）"]];
 }
 
 @end
